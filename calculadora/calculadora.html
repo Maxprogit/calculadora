@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>calc</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container" id="container">
+            <input id="input" type="text" readonly>
+
+                <button id="clear" onclick="clearDisplay()">C</button>
+                <button onclick="mostrarValor('/')">/</button>
+                <button onclick="mostrarValor('*')">*</button>
+                <button onclick="mostrarValor('-')">-</button>
+
+                <button onclick="mostrarValor('7')">7</button>
+                <button onclick="mostrarValor('8')">8</button>
+                <button onclick="mostrarValor('9')">9</button>
+                <button onclick="mostrarValor('+')">+</button>
+
+                <button onclick="mostrarValor('4')">4</button>
+                <button onclick="mostrarValor('5')">5</button>
+                <button onclick="mostrarValor('6')">6</button>
+
+                <button onclick="mostrarValor('1')">1</button>
+                <button onclick="mostrarValor('2')">2</button>
+                <button onclick="mostrarValor('3')">3</button>
+                <button onclick="calcular()">Intro</button>
+                
+                <button onclick="mostrarValor('0')">0</button>
+                <button onclick="mostrarValor('.')">.</button>
+        </div>
+        <script src="/app.js"></script>
+    </body>
+</html>
